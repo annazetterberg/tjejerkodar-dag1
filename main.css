@@ -1,0 +1,59 @@
+body  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color:#fcfdd8;
+  background-image: linear-gradient(pink, #ffc46b, #ff9776);
+  }
+
+button {
+    font-style: italic;
+    background-color: #e2bebe;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 50px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px
+
+}
+
+.inputSection {
+  margin: 50px 0px 40px 0px;
+  width: 500px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  }
+
+input {
+  margin-top: 10px;
+
+}
+
+.addOption {
+margin-top: 10px;
+
+}
+
+.test {
+  margin-bottom: 25px;
+
+}
+
+h4 {
+  font-weight: normal;
+  letter-spacing: 0,5px;
+  margin-bottom: 5px;
+
+}
+
+.antal {
+  width: 50px;
+}
