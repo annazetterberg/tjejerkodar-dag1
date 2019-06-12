@@ -11,13 +11,31 @@
         <div class="inputs">
           <input placeholder="something delicious like..."></input>
         </div>
-        <button class="addOption">add</button>
+        <button class="addOption">Add</button>
       </div>
+      <div class="resultSection"></div>
       <button class="test">Go!</button>
       <div>
         <img src="https://media.eggs.ca/assets/RecipePhotos/_resampled/FillWyIxMjgwIiwiNzIwIl0/Fluffy-Pancakes-New-CMS.jpg" alt="Pancakes!" width="700" height="450"</img>
     </div>
+
     <h4>How many would you like?</h4>
     <input class="antal"type="number" name="quantity" min="1" max="10">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+    $(document).ready(function() {
+
+      $('.resultSection').hide()
+
+
+    var add_option = function() {
+      $('.inputs').append('<input></input>')
+    }
+
+    $('.addOption').click(add_option)
+
+  })
+    </script>
   </body>
 </html>
